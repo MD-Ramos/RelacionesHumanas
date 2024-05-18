@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Iniciales {
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    String nombre, primerLetra, inicialApellido, ultimaLetra;
+
+    System.out.println("Ingrese primer nombre y ambos apellidos:");
+    nombre = sc.nextLine();
+    primeraLEtra = nombre.charAt(0);
+    inicialApellido = nombre.charAt(nombre.indexOf(" ")+1);
+    ultimaLetra = nombre.charArt(nombre.length()-1);
+    System.out.println(primeraLetra.toUpperCase());
+    System.out.println(inicialApellido.toUpperCase());
+    System.out.println(ultimaLetra.toUpperCase());
+  }
+}
